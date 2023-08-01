@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: yellow;    
+}
+
+.madiv{
+    border:1px solid black;
+    height: 500px;
+    margin-left:20% ;
+    margin-right: 20%;
+    margin: 10% 20%;
+    border-radius: 10px;
+
+}
+
+.men{
+    border:1px solid rgb(7, 7, 7);
+    border-radius: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 0px 10px;
+}

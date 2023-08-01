@@ -1,0 +1,7 @@
+div{
+    border:1px solid green;
+    height: 40%;
+    width :100%;
+    display: inline-block ;/* ou display: list-item; */
+
+}
