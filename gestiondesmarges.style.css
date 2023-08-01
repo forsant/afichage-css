@@ -1,7 +1,10 @@
 body{
     margin: 0;
     padding:0;
-    background-color: yellow;    
+    background-color:grey;
+    
+ 
+        
 }
 
 .madiv{
@@ -11,15 +14,30 @@ body{
     margin-right: 20%;
     margin: 10% 20%;
     border-radius: 10px;
-
+    background: linear-gradient(to right, green, yellow,red);
+   
 }
 
 .men{
-    border:1px solid rgb(7, 7, 7);
-    border-radius: 10px;
+    /* border:1px solid rgb(7, 7, 7); */
+    /* border-radius: 10px; */
+    
 }
 
 li{
     display: inline-block;
     margin: 0px 10px;
+    padding: 10px;
+}
+
+a:hover{
+    color: green;
+    font-size: larger;
+    border:1px solid green;
+    border-radius: 10px;
+    padding: 10%;
+  
+   }
+
+a{ text-decoration: none;
 }
